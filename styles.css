@@ -1,14 +1,33 @@
 :root {
-    --verde: #1f8a3b;
-    --verde-oscuro: #145a27;
-    --blanco: #ffffff;
-    --gris: #f7f7f7;
+    --verde: #00A651;
+    --verde-oscuro: #007A3D;
+    --blanco: #FFFFFF;
+    --gris: #F7F7F7;
 }
 
-.bg-verde { background: var(--verde); }
-.bg-verde-oscuro { background: var(--verde-oscuro); }
-.text-verde { color: var(--verde); }
-.border-verde { border-left: 5px solid var(--verde); }
+/* Navbar */
+.navbar {
+    background-color: var(--verde) !important;
+}
+.navbar .nav-link,
+.navbar-brand {
+    color: var(--blanco) !important;
+    font-weight: 600;
+}
+.navbar .nav-link:hover {
+    color: var(--gris) !important;
+}
+
+/* Botones */
+.btn-verde {
+    background-color: var(--verde);
+    color: var(--blanco);
+    border: none;
+}
+.btn-verde:hover {
+    background-color: var(--verde-oscuro);
+    color: var(--blanco);
+}
 
 /* Hero */
 .hero {
@@ -28,18 +47,22 @@
     color: var(--blanco);
 }
 
-/* Botón */
-.btn-verde {
-    background-color: var(--verde);
-    color: var(--blanco);
-    border: none;
-}
-.btn-verde:hover {
-    background-color: var(--verde-oscuro);
-    color: var(--blanco);
+/* Tarjetas */
+.card {
+    border-left: 5px solid var(--verde);
+    border-radius: 6px;
 }
 
-/* Player cards */
-.player-card img {
-    border-radius: 5px;
+/* Footer */
+footer {
+    background-color: var(--verde-oscuro);
+    color: var(--blanco);
+    padding: 20px;
+    text-align: center;
 }
+
+/* Texto y acentos */
+.text-verde { color: var(--verde); }
+.border-verde { border-left: 5px solid var(--verde); }
+.bg-verde { background-color: var(--verde); }
+.bg-verde-oscuro { background-color: var(--verde-oscuro); }

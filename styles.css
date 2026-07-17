@@ -1,0 +1,45 @@
+:root {
+    --verde: #1f8a3b;
+    --verde-oscuro: #145a27;
+    --blanco: #ffffff;
+    --gris: #f7f7f7;
+}
+
+.bg-verde { background: var(--verde); }
+.bg-verde-oscuro { background: var(--verde-oscuro); }
+.text-verde { color: var(--verde); }
+.border-verde { border-left: 5px solid var(--verde); }
+
+/* Hero */
+.hero {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.45);
+}
+.hero-content {
+    position: relative;
+    z-index: 2;
+    color: var(--blanco);
+}
+
+/* Botón */
+.btn-verde {
+    background-color: var(--verde);
+    color: var(--blanco);
+    border: none;
+}
+.btn-verde:hover {
+    background-color: var(--verde-oscuro);
+    color: var(--blanco);
+}
+
+/* Player cards */
+.player-card img {
+    border-radius: 5px;
+}

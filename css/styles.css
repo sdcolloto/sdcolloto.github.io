@@ -8177,7 +8177,7 @@ textarea.form-control-lg {
 
 .bg-green {
   --bs-bg-opacity: 1;
-  background-color: bs-green !important;
+  background-color: var(--bs-green) !important;
 }
 
 .bg-body {

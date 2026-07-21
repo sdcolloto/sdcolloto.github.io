@@ -6,7 +6,7 @@
 
 /* Fondo del dropdown igual que el navbar */
 .dropdown-menu {
-    background-color: var(--verde);   /* tu color verde */
+    background-color: var(--bs-green);   /* tu color verde */
     border: none;
     padding: 0;
 }

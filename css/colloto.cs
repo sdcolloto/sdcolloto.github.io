@@ -1,3 +1,6 @@
+@charset "UTF-8";
+
+
 :root {
   --bs-green: #00b647;
   --bs-white: #fff;

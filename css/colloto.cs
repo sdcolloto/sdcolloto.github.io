@@ -1,5 +1,6 @@
 :root {
   --bs-green: #00b647;
+  --bs-white: #fff;
 }
     
 /* ======== SUBMENÚ CON EL MISMO DISEÑO ======== */
@@ -13,7 +14,7 @@
 
 /* Items del submenú */
 .dropdown-item {
-    color: var(--blanco);             /* texto blanco */
+    color: var(--bs-white);             /* texto blanco */
     padding: 0.75rem 1rem;
     font-weight: 600;
     text-transform: uppercase;
@@ -21,7 +22,7 @@
 
 /* Hover igual que el menú principal */
 .dropdown-item:hover {
-    background-color: var(--verde-oscuro);  /* tono más oscuro */
+    background-color: var(--bs-green);  /* tono más oscuro */
     color: var(--gris);                     /* igual que tu hover */
 }
 

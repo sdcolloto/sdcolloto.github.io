@@ -1,4 +1,7 @@
-
+:root {
+  --bs-green: #00b647;
+}
+    
 /* ======== SUBMENÚ CON EL MISMO DISEÑO ======== */
 
 /* Fondo del dropdown igual que el navbar */
